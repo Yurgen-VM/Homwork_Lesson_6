@@ -23,7 +23,6 @@ void Main()
         {
             ElementsMatrix += matrix[i,j]; 
         }
-
     }
     
     Console.WriteLine($"Строка значений массива: {ElementsMatrix}");
@@ -39,7 +38,6 @@ void Main()
             {
                 charMatrix[i, j] = (char)rnd.Next('a', 'z' + 1);
             }
-
         }
         return charMatrix;
     }
